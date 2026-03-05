@@ -1,0 +1,10 @@
+[project]
+name = "vid2obsidian"
+version = "0.1.0"
+description = "Convert video content into Obsidian markdown notes using the Anthropic API"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.84.0",
+    "python-dotenv>=1.2.2",
+    "youtube-transcript-api>=1.2.4",
+]

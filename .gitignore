@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Project-internal files
+prompt-starter.md
+CLAUDE.md
+
+# Transcripts and vault output
+transcripts/*.txt
+transcripts/archived/
+vaults/
